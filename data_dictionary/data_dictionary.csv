@@ -1,0 +1,27 @@
+source,attribute,data_type,business_definition,unit
+AirQualityUCI,Date,Tanggal,Tanggal pengukuran kualitas udara,Tanggal
+AirQualityUCI,Time,Waktu,Waktu pengukuran kualitas udara,Waktu
+AirQualityUCI,CO(GT),Numerik kontinu,Konsentrasi karbon monoksida,mg/m3
+AirQualityUCI,PT08.S1(CO),Numerik kontinu,Respons sensor karbon monoksida,-
+AirQualityUCI,NMHC(GT),Numerik kontinu,Konsentrasi non metanic hydrocarbons,microg/m3
+AirQualityUCI,C6H6(GT),Numerik kontinu,Konsentrasi benzena,microg/m3
+AirQualityUCI,PT08.S2(NMHC),Numerik kontinu,Respons sensor NMHC,-
+AirQualityUCI,NOx(GT),Numerik kontinu,Konsentrasi nitrogen oksida,ppb
+AirQualityUCI,PT08.S3(NOx),Numerik kontinu,Respons sensor NOx,-
+AirQualityUCI,NO2(GT),Numerik kontinu,Konsentrasi nitrogen dioksida,microg/m3
+AirQualityUCI,PT08.S4(NOx),Numerik kontinu,Respons sensor NOx,-
+AirQualityUCI,PT08.S5(O3),Numerik kontinu,Respons sensor ozon,-
+AirQualityUCI,T,Numerik kontinu,Temperatur udara,Celsius
+AirQualityUCI,RH,Numerik kontinu,Kelembapan relatif,Persen
+AirQualityUCI,AH,Numerik kontinu,Kelembapan absolut,-
+OpenMeteo,latitude,Numerik kontinu,Latitude lokasi pengukuran,Derajat
+OpenMeteo,longitude,Numerik kontinu,Longitude lokasi pengukuran,Derajat
+OpenMeteo,time,Timestamp,Waktu observasi kualitas udara,Tanggal/Waktu
+OpenMeteo,pm10,Numerik kontinu,Konsentrasi particulate matter PM10,microg/m3
+OpenMeteo,pm2_5,Numerik kontinu,Konsentrasi particulate matter PM2.5,microg/m3
+OpenMeteo,carbon_monoxide,Numerik kontinu,Konsentrasi karbon monoksida,microg/m3
+OpenMeteo,nitrogen_dioxide,Numerik kontinu,Konsentrasi nitrogen dioksida,microg/m3
+OpenMeteo,sulphur_dioxide,Numerik kontinu,Konsentrasi sulfur dioksida,microg/m3
+OpenMeteo,ozone,Numerik kontinu,Konsentrasi ozon,microg/m3
+OpenMeteo,european_aqi,Numerik kontinu,European Air Quality Index,Index
+OpenMeteo,us_aqi,Numerik kontinu,United States Air Quality Index,Index
